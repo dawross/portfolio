@@ -109,11 +109,12 @@
           <div class="row">
             <div class="col-md-4">
               <figure>
-                <img
-                  class="img-thumbnail"
-                  src="https://via.placeholder.com/225"
-                  alt=""
-                />
+                <a href="https://dawross.github.io/bioSite/" target="_blank"
+                  ><img
+                    class="img-thumbnail"
+                    src="images/biosite_thmb.png"
+                    alt="BioSite"
+                /></a>
                 <figcaption>
                   <a href="https://dawross.github.io/bioSite/" target="_blank"
                     >BioSite</a
@@ -123,11 +124,12 @@
             </div>
             <div class="col-md-4">
               <figure>
-                <img
-                  class="img-thumbnail"
-                  src="https://via.placeholder.com/225"
-                  alt=""
-                />
+                <a href="https://github.com/dawross/bioSite" target="_blank">
+                  <img
+                    class="img-thumbnail"
+                    src="images/github.png"
+                    alt="GitHub"
+                /></a>
                 <figcaption>
                   <a href="https://github.com/dawross/bioSite"
                     >BioSite Repository</a
@@ -239,17 +241,31 @@
                 class="form-control"
               ></textarea>
             </div>
+            <button class="btn btn-outline-light" type="submit">
+              Send me a message!
+            </button>
           </form>
         </div>
       </section>
     </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      //This is for a smoother scrolling experience when using the anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
   </body>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"
-  ></script>
 </html>
