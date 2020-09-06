@@ -1,5 +1,5 @@
 body {
-  background-color: #051336;
+  background: #051336 url("images/scanlines.png") repeat 0 0; 
   font-family: Consolas, "Courier New", monospace;
   color: #fff;
 }
@@ -35,6 +35,13 @@ h3 {
 .bg-dark {
   background-color: #051336 !important;
 }
+.logo {
+  border: 2px solid white;
+  text-align: right;
+  margin: 0 auto;
+  padding: 5px 0 5px 12px;
+  border-radius: 8px;
+}
 .container {
   max-width: 1094px;
 }
@@ -69,24 +76,26 @@ a.navbar-brand {
   font-family: "Press Start 2P", cursive;
   font-size: 1.5em;
 }
-.card, .card-header {
+.card,
+.card-header {
   background: none;
   border: none;
 }
 .btn.btn-link {
-	color: rgb(25, 255, 128);
+  color: rgb(25, 255, 128);
 }
-.btn.focus, .btn:focus {
-	box-shadow: 0 0 0 .2rem rgba(25, 255, 128,.25);
+.btn.focus,
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(25, 255, 128, 0.25);
 }
 ul#social {
-	list-style-type: none;
-	padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 #social li {
-	display: inline-block;
-	padding-right: 26px;
+  display: inline-block;
+  padding-right: 26px;
 }
 #social a {
-	color: rgb(25, 255, 128);
+  color: rgb(25, 255, 128);
 }
